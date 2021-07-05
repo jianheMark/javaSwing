@@ -14,13 +14,14 @@ JSplitPanel must be in the center.
 Horizontally,there are two component. So either {CENTER, WEST} or {CENTER,  EAST}.
 
 plafComponent including: 1. plafChoose, an ComboBox use to udpate the UI. 2. a pack, CheckBox used for pack.
-plaf Component Style: FlowLayout
+plafComponent Style: FlowLayout
 
 dynamicPanel: 1. an JButton used for add new Jlabel: BorderLayout.NORTH,
 2. an JScrollPane stored all the new added JLabels : BorderLayout.CENTER
+dynamicPanel Layout: BorderLayout.
 
-tableScrollPane: used to contain a JTable. from data&header to DefaultTableModel to JTable.
-imagePanel: used to contain a image.
+tableScrollPane: a JScrollPanel used to contain a JTable. from data&header to DefaultTableModel to JTable.
+imagePanel: used to contain a image. GridBagLayout style.
 JSplitPane: used to contain tableScrollPane and imagePanel. Splitted in vertical way.
 
  */
