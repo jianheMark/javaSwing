@@ -14,6 +14,7 @@ JSplitPanel must be in the center.
 Horizontally,there are two component. So either {CENTER, WEST} or {CENTER,  EAST}.
 
 plafComponent including: 1. plafChoose, an ComboBox use to udpate the UI. 2. a pack, CheckBox used for pack.
+plaf Component Style: FlowLayout
 
 dynamicPanel: 1. an JButton used for add new Jlabel: BorderLayout.NORTH,
 2. an JScrollPane stored all the new added JLabels : BorderLayout.CENTER
@@ -122,8 +123,4 @@ public class nestedLayout extends JPanel {
         try{frame.setLocationByPlatform(true);frame.setMaximumSize(frame.getSize());} catch (Exception e){}
         frame.setVisible(true);
     }
-
-
-
-
 }
